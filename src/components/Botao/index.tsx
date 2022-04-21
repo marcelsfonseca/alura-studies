@@ -5,7 +5,7 @@ class Botao extends React.Component {
     state = {}
     render() {
         return (
-            <button className={style.botao}>Botão</button>
+            <button className={style.botao}>{this.props.children}</button>
         );
     }
 }
